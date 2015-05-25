@@ -1,0 +1,889 @@
+{
+    "project": {
+        "name": "Paxcel-Jekyll Tool Documentation",
+        "description": "Documentation of tool for creating website using Jekyll and hosting on Github",
+        "version": "1.0.0",
+        "url": "https://github.com/manishGarg57/paxcel-jekyll",
+        "logo": "http://paxcel.net/bi/images/logo1.jpg"
+    },
+    "files": {
+        "lib\\add.js": {
+            "name": "lib\\add.js",
+            "modules": {
+                "add": 1
+            },
+            "classes": {
+                "add": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "lib\\base.js": {
+            "name": "lib\\base.js",
+            "modules": {
+                "base": 1
+            },
+            "classes": {
+                "base": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "lib\\file.js": {
+            "name": "lib\\file.js",
+            "modules": {
+                "file": 1
+            },
+            "classes": {
+                "file": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "lib\\git.js": {
+            "name": "lib\\git.js",
+            "modules": {
+                "git": 1
+            },
+            "classes": {
+                "git": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "lib\\prompt.js": {
+            "name": "lib\\prompt.js",
+            "modules": {
+                "prompt": 1
+            },
+            "classes": {
+                "prompt": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "lib\\remove.js": {
+            "name": "lib\\remove.js",
+            "modules": {
+                "remove": 1
+            },
+            "classes": {
+                "remove": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "lib\\update.js": {
+            "name": "lib\\update.js",
+            "modules": {
+                "update": 1
+            },
+            "classes": {
+                "update": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "base": {
+            "name": "base",
+            "submodules": {
+                "add": 1,
+                "file": 1,
+                "git": 1,
+                "prompt": 1,
+                "remove": 1,
+                "update": 1
+            },
+            "classes": {
+                "add": 1,
+                "base": 1,
+                "file": 1,
+                "git": 1,
+                "prompt": 1,
+                "remove": 1,
+                "update": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "lib\\update.js",
+            "line": 9,
+            "description": "Provides the base object"
+        },
+        "add": {
+            "name": "add",
+            "submodules": {},
+            "classes": {
+                "add": 1
+            },
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "base",
+            "namespace": "",
+            "file": "lib\\add.js",
+            "line": 10,
+            "description": "Various functions to add new post, page, layout, section or team member."
+        },
+        "file": {
+            "name": "file",
+            "submodules": {},
+            "classes": {
+                "file": 1
+            },
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "base",
+            "namespace": "",
+            "file": "lib\\file.js",
+            "line": 12,
+            "description": "Various functions related to file handling."
+        },
+        "git": {
+            "name": "git",
+            "submodules": {},
+            "classes": {
+                "git": 1
+            },
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "base",
+            "namespace": "",
+            "file": "lib\\git.js",
+            "line": 16,
+            "description": "Various functions related to git and github."
+        },
+        "prompt": {
+            "name": "prompt",
+            "submodules": {},
+            "classes": {
+                "prompt": 1
+            },
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "base",
+            "namespace": "",
+            "file": "lib\\prompt.js",
+            "line": 10,
+            "description": "Various functions related to prompting."
+        },
+        "remove": {
+            "name": "remove",
+            "submodules": {},
+            "classes": {
+                "remove": 1
+            },
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "base",
+            "namespace": "",
+            "file": "lib\\remove.js",
+            "line": 11,
+            "description": "Various functions to remove post, page, layout, section or team member."
+        },
+        "update": {
+            "name": "update",
+            "submodules": {},
+            "classes": {
+                "update": 1
+            },
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "base",
+            "namespace": "",
+            "file": "lib\\update.js",
+            "line": 9,
+            "description": "Various functions to update team member."
+        }
+    },
+    "classes": {
+        "add": {
+            "name": "add",
+            "shortname": "add",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "base",
+            "submodule": "add",
+            "namespace": "",
+            "file": "lib\\add.js",
+            "line": 10,
+            "description": "Various functions to add new post, page, layout, section or team member."
+        },
+        "base": {
+            "name": "base",
+            "shortname": "base",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "base",
+            "namespace": "",
+            "file": "lib\\base.js",
+            "line": 7,
+            "description": "Provides the base object"
+        },
+        "file": {
+            "name": "file",
+            "shortname": "file",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "base",
+            "submodule": "file",
+            "namespace": "",
+            "file": "lib\\file.js",
+            "line": 12,
+            "description": "Various functions related to file handling."
+        },
+        "git": {
+            "name": "git",
+            "shortname": "git",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "base",
+            "submodule": "git",
+            "namespace": "",
+            "file": "lib\\git.js",
+            "line": 16,
+            "description": "Various functions related to git and github."
+        },
+        "prompt": {
+            "name": "prompt",
+            "shortname": "prompt",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "base",
+            "submodule": "prompt",
+            "namespace": "",
+            "file": "lib\\prompt.js",
+            "line": 10,
+            "description": "Various functions related to prompting."
+        },
+        "remove": {
+            "name": "remove",
+            "shortname": "remove",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "base",
+            "submodule": "remove",
+            "namespace": "",
+            "file": "lib\\remove.js",
+            "line": 11,
+            "description": "Various functions to remove post, page, layout, section or team member."
+        },
+        "update": {
+            "name": "update",
+            "shortname": "update",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "base",
+            "submodule": "update",
+            "namespace": "",
+            "file": "lib\\update.js",
+            "line": 9,
+            "description": "Various functions to update team member."
+        }
+    },
+    "classitems": [
+        {
+            "file": "lib\\add.js",
+            "line": 15,
+            "description": "Add new layout.",
+            "itemtype": "method",
+            "name": "layout",
+            "class": "add",
+            "module": "base",
+            "submodule": "add"
+        },
+        {
+            "file": "lib\\add.js",
+            "line": 38,
+            "description": "Add new section.",
+            "itemtype": "method",
+            "name": "section",
+            "class": "add",
+            "module": "base",
+            "submodule": "add"
+        },
+        {
+            "file": "lib\\add.js",
+            "line": 62,
+            "description": "Add new team member.",
+            "itemtype": "method",
+            "name": "teamMember",
+            "class": "add",
+            "module": "base",
+            "submodule": "add"
+        },
+        {
+            "file": "lib\\add.js",
+            "line": 115,
+            "description": "Add new post.",
+            "itemtype": "method",
+            "name": "post",
+            "class": "add",
+            "module": "base",
+            "submodule": "add"
+        },
+        {
+            "file": "lib\\add.js",
+            "line": 159,
+            "description": "Add new page.",
+            "itemtype": "method",
+            "name": "page",
+            "class": "add",
+            "module": "base",
+            "submodule": "add"
+        },
+        {
+            "file": "lib\\base.js",
+            "line": 16,
+            "description": "Call the function to create new website of one of the following three types: website, blog, docs.",
+            "itemtype": "method",
+            "name": "create",
+            "params": [
+                {
+                    "name": "type",
+                    "description": "The type of website to create. 'website', 'blog' and 'docs' are allowed only.",
+                    "type": "String"
+                }
+            ],
+            "class": "base",
+            "module": "base"
+        },
+        {
+            "file": "lib\\base.js",
+            "line": 33,
+            "description": "Create a new website.",
+            "itemtype": "method",
+            "name": "createWebsite",
+            "class": "base",
+            "module": "base"
+        },
+        {
+            "file": "lib\\base.js",
+            "line": 68,
+            "description": "Create a new blog.",
+            "itemtype": "method",
+            "name": "createBlog",
+            "class": "base",
+            "module": "base"
+        },
+        {
+            "file": "lib\\file.js",
+            "line": 18,
+            "description": "Copy files and folders from base template to create new website",
+            "itemtype": "method",
+            "name": "copyWebsite",
+            "class": "file",
+            "module": "base",
+            "submodule": "file"
+        },
+        {
+            "file": "lib\\file.js",
+            "line": 54,
+            "description": "Create path of the base template. (Template that resides in the npm module)",
+            "itemtype": "method",
+            "name": "sourceRootPath",
+            "return": {
+                "description": "Source path of the base template.",
+                "type": "String"
+            },
+            "class": "file",
+            "module": "base",
+            "submodule": "file"
+        },
+        {
+            "file": "lib\\file.js",
+            "line": 62,
+            "description": "Copy file from source to destination.",
+            "itemtype": "method",
+            "name": "copy",
+            "params": [
+                {
+                    "name": "src",
+                    "description": "Source file path, relative to base template.",
+                    "type": "String"
+                },
+                {
+                    "name": "dest",
+                    "description": "Destination file path, relative to current directory",
+                    "type": "String"
+                }
+            ],
+            "class": "file",
+            "module": "base",
+            "submodule": "file"
+        },
+        {
+            "file": "lib\\file.js",
+            "line": 74,
+            "description": "Render file from source and copy to the destination.",
+            "itemtype": "method",
+            "name": "template",
+            "params": [
+                {
+                    "name": "src",
+                    "description": "Source file path, relative to base template.",
+                    "type": "String"
+                },
+                {
+                    "name": "dest",
+                    "description": "Destination file path, relative to current directory",
+                    "type": "String"
+                }
+            ],
+            "class": "file",
+            "module": "base",
+            "submodule": "file"
+        },
+        {
+            "file": "lib\\file.js",
+            "line": 104,
+            "description": "Copy Directory (including sub directories and files) from source to destination.",
+            "itemtype": "method",
+            "name": "copyDirectory",
+            "params": [
+                {
+                    "name": "src",
+                    "description": "Source directory path, relative to base template.",
+                    "type": "String"
+                },
+                {
+                    "name": "dest",
+                    "description": "Destination directory path, relative to current directory",
+                    "type": "String"
+                }
+            ],
+            "class": "file",
+            "module": "base",
+            "submodule": "file"
+        },
+        {
+            "file": "lib\\file.js",
+            "line": 122,
+            "description": "Create full source path from relative path.",
+            "itemtype": "method",
+            "name": "createSourcePath",
+            "params": [
+                {
+                    "name": "src",
+                    "description": "Source file/folder path, relative to base template.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Full Source path.",
+                "type": "String"
+            },
+            "class": "file",
+            "module": "base",
+            "submodule": "file"
+        },
+        {
+            "file": "lib\\file.js",
+            "line": 131,
+            "description": "Create full destination path from relative path.",
+            "itemtype": "method",
+            "name": "createDestinationPath",
+            "params": [
+                {
+                    "name": "dest",
+                    "description": "Destination file/folder path, relative to current directory",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Full Destination path.",
+                "type": "String"
+            },
+            "class": "file",
+            "module": "base",
+            "submodule": "file"
+        },
+        {
+            "file": "lib\\file.js",
+            "line": 143,
+            "description": "Get list of files and folders of directory.",
+            "itemtype": "method",
+            "name": "getFilesOfDirectory",
+            "params": [
+                {
+                    "name": "directory",
+                    "description": "Destination folder path, relative to current directory",
+                    "type": "String"
+                }
+            ],
+            "class": "file",
+            "module": "base",
+            "submodule": "file"
+        },
+        {
+            "file": "lib\\file.js",
+            "line": 151,
+            "description": "Read a file.",
+            "itemtype": "method",
+            "name": "readFile",
+            "params": [
+                {
+                    "name": "dest",
+                    "description": "Destination file path, relative to current directory",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Content of the file.",
+                "type": "String"
+            },
+            "class": "file",
+            "module": "base",
+            "submodule": "file"
+        },
+        {
+            "file": "lib\\file.js",
+            "line": 160,
+            "description": "Write a file (Overwrite the existing file)",
+            "itemtype": "method",
+            "name": "writeFile",
+            "params": [
+                {
+                    "name": "dest",
+                    "description": "Destination file path, relative to current directory",
+                    "type": "String"
+                },
+                {
+                    "name": "data",
+                    "description": "Data to write",
+                    "type": "String"
+                }
+            ],
+            "class": "file",
+            "module": "base",
+            "submodule": "file"
+        },
+        {
+            "file": "lib\\file.js",
+            "line": 169,
+            "description": "Append data at the end of a file.",
+            "itemtype": "method",
+            "name": "appendDataToFile",
+            "params": [
+                {
+                    "name": "dest",
+                    "description": "Destination file path, relative to current directory",
+                    "type": "String"
+                },
+                {
+                    "name": "data",
+                    "description": "Data to append",
+                    "type": "String"
+                }
+            ],
+            "class": "file",
+            "module": "base",
+            "submodule": "file"
+        },
+        {
+            "file": "lib\\file.js",
+            "line": 178,
+            "description": "Delete file.",
+            "itemtype": "method",
+            "name": "deleteFile",
+            "params": [
+                {
+                    "name": "dest",
+                    "description": "Destination file path, relative to current directory",
+                    "type": "String"
+                }
+            ],
+            "class": "file",
+            "module": "base",
+            "submodule": "file"
+        },
+        {
+            "file": "lib\\file.js",
+            "line": 190,
+            "description": "Create post file name. Converts white spaces to hifens and append date in the starting.",
+            "itemtype": "method",
+            "name": "createPostFileName",
+            "params": [
+                {
+                    "name": "fileName",
+                    "description": "Post title.",
+                    "type": "String"
+                }
+            ],
+            "class": "file",
+            "module": "base",
+            "submodule": "file"
+        },
+        {
+            "file": "lib\\file.js",
+            "line": 200,
+            "description": "Check the path of a file, and create folders, if does not exist. For example: If input is \"abc\\xyz\\file.js\", the function will automatically create folders abc and xyz, if they does not exist.",
+            "itemtype": "method",
+            "name": "createDirectoriesIfNotExist",
+            "params": [
+                {
+                    "name": "dest",
+                    "description": "Destination file path, relative to current directory",
+                    "type": "String"
+                }
+            ],
+            "class": "file",
+            "module": "base",
+            "submodule": "file"
+        },
+        {
+            "file": "lib\\file.js",
+            "line": 216,
+            "description": "Check if the directory is empty or not.",
+            "itemtype": "method",
+            "name": "isDirectoryEmpty",
+            "params": [
+                {
+                    "name": "dest",
+                    "description": "Destination folder path, relative to current directory",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "true if directory is empty, else false.",
+                "type": "Boolean"
+            },
+            "class": "file",
+            "module": "base",
+            "submodule": "file"
+        },
+        {
+            "file": "lib\\file.js",
+            "line": 235,
+            "description": "Check if the base template already exist or not.",
+            "itemtype": "method",
+            "name": "baseTemplateExist",
+            "return": {
+                "description": "true if base template already exist, else false.",
+                "type": "Boolean"
+            },
+            "class": "file",
+            "module": "base",
+            "submodule": "file"
+        },
+        {
+            "file": "lib\\file.js",
+            "line": 249,
+            "description": "Check if the file already exist or not.",
+            "itemtype": "method",
+            "name": "fileExist",
+            "params": [
+                {
+                    "name": "dest",
+                    "description": "Destination file path, relative to current directory",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "true if file already exist, else false.",
+                "type": "Boolean"
+            },
+            "class": "file",
+            "module": "base",
+            "submodule": "file"
+        },
+        {
+            "file": "lib\\git.js",
+            "line": 22,
+            "description": "Initilize current directory as git directory.",
+            "itemtype": "method",
+            "name": "initilizeGit",
+            "class": "git",
+            "module": "base",
+            "submodule": "git"
+        },
+        {
+            "file": "lib\\git.js",
+            "line": 59,
+            "description": "Autheticate user github credentials.",
+            "itemtype": "method",
+            "name": "githubAuth",
+            "params": [
+                {
+                    "name": "username",
+                    "description": "Github username",
+                    "type": "String"
+                },
+                {
+                    "name": "password",
+                    "description": "Github password",
+                    "type": "String"
+                }
+            ],
+            "class": "git",
+            "module": "base",
+            "submodule": "git"
+        },
+        {
+            "file": "lib\\git.js",
+            "line": 72,
+            "description": "Fetch the base template from github.",
+            "itemtype": "method",
+            "name": "fetchFromGithub",
+            "params": [
+                {
+                    "name": "type",
+                    "description": "The type of website to create. 'website', 'blog' and 'docs' are allowed only.",
+                    "type": "String"
+                }
+            ],
+            "class": "git",
+            "module": "base",
+            "submodule": "git"
+        },
+        {
+            "file": "lib\\prompt.js",
+            "line": 15,
+            "description": "Prompt for creating website.",
+            "itemtype": "method",
+            "name": "all",
+            "class": "prompt",
+            "module": "base",
+            "submodule": "prompt"
+        },
+        {
+            "file": "lib\\prompt.js",
+            "line": 77,
+            "description": "Project related prompts.",
+            "itemtype": "method",
+            "name": "project",
+            "class": "prompt",
+            "module": "base",
+            "submodule": "prompt"
+        },
+        {
+            "file": "lib\\prompt.js",
+            "line": 113,
+            "description": "Author related prompts.",
+            "itemtype": "method",
+            "name": "author",
+            "class": "prompt",
+            "module": "base",
+            "submodule": "prompt"
+        },
+        {
+            "file": "lib\\prompt.js",
+            "line": 145,
+            "description": "Github related prompts.",
+            "itemtype": "method",
+            "name": "github",
+            "class": "prompt",
+            "module": "base",
+            "submodule": "prompt"
+        },
+        {
+            "file": "lib\\prompt.js",
+            "line": 179,
+            "description": "Prompt to ask user for adding new post,page,layout, section or team member.",
+            "itemtype": "method",
+            "name": "addPrompt",
+            "class": "prompt",
+            "module": "base",
+            "submodule": "prompt"
+        },
+        {
+            "file": "lib\\prompt.js",
+            "line": 215,
+            "description": "Prompt to ask user for removing post,page,layout, section or team member.",
+            "itemtype": "method",
+            "name": "removePrompt",
+            "class": "prompt",
+            "module": "base",
+            "submodule": "prompt"
+        },
+        {
+            "file": "lib\\remove.js",
+            "line": 17,
+            "description": "Remove the layout.",
+            "itemtype": "method",
+            "name": "layout",
+            "class": "remove",
+            "module": "base",
+            "submodule": "remove"
+        },
+        {
+            "file": "lib\\remove.js",
+            "line": 50,
+            "description": "Remove the section.",
+            "itemtype": "method",
+            "name": "section",
+            "class": "remove",
+            "module": "base",
+            "submodule": "remove"
+        },
+        {
+            "file": "lib\\remove.js",
+            "line": 83,
+            "description": "Remove the post.",
+            "itemtype": "method",
+            "name": "post",
+            "class": "remove",
+            "module": "base",
+            "submodule": "remove"
+        },
+        {
+            "file": "lib\\remove.js",
+            "line": 116,
+            "description": "Remove the team member.",
+            "itemtype": "method",
+            "name": "teamMember",
+            "class": "remove",
+            "module": "base",
+            "submodule": "remove"
+        },
+        {
+            "file": "lib\\remove.js",
+            "line": 152,
+            "description": "Remove the page.",
+            "itemtype": "method",
+            "name": "page",
+            "class": "remove",
+            "module": "base",
+            "submodule": "remove"
+        },
+        {
+            "file": "lib\\update.js",
+            "line": 14,
+            "description": "Update the team member.",
+            "itemtype": "method",
+            "name": "teamMember",
+            "class": "update",
+            "module": "base",
+            "submodule": "update"
+        }
+    ],
+    "warnings": []
+}
